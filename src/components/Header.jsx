@@ -6,7 +6,7 @@ const Header = () => {
     <div className="flex w-full py-[50px] px-[70px] bg-customRed font-mulish items-center justify-between text-white">
       <div className="gap-3 flex items-center">
         <img src={logo} width={40} alt="" />
-        <h1 className=" font-bold text-3xl tracking-wider">NEUERA</h1>
+        <h1 className=" font-bold text-3xl tracking-[2px]">NEUERA</h1>
       </div>
       <div className="flex gap-[50px] font-medium  ">
         {headerButtons.map((items) => (

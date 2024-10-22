@@ -10,7 +10,10 @@ export { default as image9 } from "../assets/9.png";
 export { default as image10 } from "../assets/10.png";
 export { default as image11 } from "../assets/11.jpg";
 export { default as arrow } from "../assets/arrow.png";
+export { default as camera } from "../assets/Polaroid Camera.png";
 
+export { default as arrowuprightwhite } from "../assets/arrowuprightwhite.svg";
+export { default as arrowupright } from "../assets/arrowupright.svg";
 export { default as logo } from "../assets/logo.svg";
 export { default as armor } from "../assets/armor.svg";
 export { default as cadburys } from "../assets/cadburys.svg";
@@ -23,10 +26,13 @@ export { default as quote } from "../assets/quote.svg";
 export { default as sticker } from "../assets/sticker.svg";
 export { default as target } from "../assets/target.svg";
 export { default as target2 } from "../assets/target2.svg";
+export { default as colorLogo } from "../assets/colorLogo.svg";
 
 export const headerButtons = [
   { title: "Home", id: 1 },
   { title: "Product", id: 2 },
   { title: "Services", id: 3 },
-  { title: "Let's Talk", id: 4},
+  { title: "Let's Talk", id: 4 },
 ];
+
+export const scrollContent= []

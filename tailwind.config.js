@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        barlow: ["Barlow Semi Condensed", "sans-serif"],
+        barlow: ["Barlow Condensed", "sans-serif"],
         mulish: ["Mulish", "sans-serif"],
       },
       colors: {

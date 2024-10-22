@@ -2,17 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Barlow Semi Condensed Fonts */
+
 @font-face {
-  font-family: 'Barlow Semi Condensed';
-  src: url('/fonts/BarlowSemiCondensed-Black.otf') format('opentype');
+  font-family: 'Barlow Condensed';
+  src: url('/fonts/BarlowCondensed-Black.otf') format('opentype');
   font-weight: 900; /* Black */
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Barlow Semi Condensed';
-  src: url('/fonts/BarlowSemiCondensed-BoldItalic.otf') format('opentype');
+  font-family: 'Barlow Condensed';
+  src: url('/fonts/BarlowCondensed-BoldItalic.otf') format('opentype');
   font-weight: 700; /* Bold */
   font-style: italic;
 }
