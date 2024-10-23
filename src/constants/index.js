@@ -15,6 +15,9 @@ export { default as camera } from "../assets/Polaroid Camera.png";
 export { default as arrowuprightwhite } from "../assets/arrowuprightwhite.svg";
 export { default as arrowupright } from "../assets/arrowupright.svg";
 export { default as logo } from "../assets/logo.svg";
+export { default as arrowuprightpink } from "../assets/arrowuprightpink.svg";
+export { default as logopink } from "../assets/logopink.svg";
+export { default as logored } from "../assets/logored.svg";
 import armor from "../assets/armor.svg";
 import netflix from "../assets/netflix.svg";
 import cadburys from "../assets/cadburys.svg";
@@ -44,7 +47,7 @@ export const scrollContent = [
   { icon: cadburys },
 ];
 
-export const topSectionContent = [
+export const BenefitsContent = [
   {
     title: "Discovery & Strategy",
     text: "We assess your business goals, challenges, and opportunities to understand your unique needs and develop a tailored marketing strategy.",

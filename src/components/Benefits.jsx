@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  arrowupright,
+  arrowuprightpink,
+  BenefitsContent,
+  logo,
+  logopink,
+  logored,
+} from "../constants";
 
 const Benefits = () => {
   return (
@@ -25,7 +33,38 @@ const Benefits = () => {
           </p>
         </div>
       </div>
-      <div className="bg-[#ffc4c4] w-full px-5 py-5 flex mt-[50px]"></div>
+      {BenefitsContent.map((item, index) => (
+        <div
+          key={item.id || index}
+          className={`${
+            index === 2 ? "bg-none" : "bg-[#ffc4c4]"
+          }  w-full px-10 py-10 flex mt-[50px] rounded-[30px] items-center justify-between`}
+        >
+          <img className="rotate-45" src={index === 2 ? logopink : logored} />
+          <p
+            className={`font-barlow font-black uppercase text-[2.5rem] leading-none -ml-10 mr-10 w-1/3 ${
+              index === 2 ? "text-[#ffc4c4]" : "text-customRed"
+            } text-left`}
+          >
+            {item.title}
+          </p>
+          <p
+            className={`font-mulish font-medium w-1/3 ${
+              index === 2 ? "text-[#ffc4c4]" : "text-customRed"
+            }`}
+          >
+            {item.text}
+          </p>
+          <img
+            width={75}
+            className={`p-5 rounded-[70px] ${
+              index === 2 ? "bg-[#ffc4c4] rotate-45" : "bg-customRed"
+            }`}
+            src={index === 2 ? arrowupright : arrowuprightpink}
+            alt="Arrow pointing up and right" // Descriptive alt text
+          />
+        </div>
+      ))}
     </section>
   );
 };
