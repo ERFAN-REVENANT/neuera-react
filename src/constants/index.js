@@ -43,3 +43,22 @@ export const scrollContent = [
   { icon: armor },
   { icon: cadburys },
 ];
+
+export const topSectionContent = [
+  {
+    title: "Discovery & Strategy",
+    text: "We assess your business goals, challenges, and opportunities to understand your unique needs and develop a tailored marketing strategy.",
+  },
+  {
+    title: "Strategic Action",
+    text: "Our team implements the strategy with meticulous precision, leveraging best practices and innovative techniques to ensure optimal results.",
+  },
+  {
+    title: "Performance Boost",
+    text: "We assess your business goals, challenges, and opportunities to understand your unique needs and develop a tailored marketing strategy.",
+  },
+  {
+    title: "Insight Analysis",
+    text: "Receive comprehensive, detailed reports and insights that allow you to track progress and measure success effectively, our analytics provide a clear overview.",
+  },
+];
