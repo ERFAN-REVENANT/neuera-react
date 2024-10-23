@@ -15,11 +15,12 @@ export { default as camera } from "../assets/Polaroid Camera.png";
 export { default as arrowuprightwhite } from "../assets/arrowuprightwhite.svg";
 export { default as arrowupright } from "../assets/arrowupright.svg";
 export { default as logo } from "../assets/logo.svg";
-export { default as armor } from "../assets/armor.svg";
-export { default as cadburys } from "../assets/cadburys.svg";
+import armor from "../assets/armor.svg";
+import netflix from "../assets/netflix.svg";
+import cadburys from "../assets/cadburys.svg";
+import dunkin from "../assets/dunkin.svg";
+import huawei from "../assets/huawei.svg";
 export { default as container1 } from "../assets/container1.svg";
-export { default as dunkin } from "../assets/dunkin.svg";
-export { default as huawei } from "../assets/huawei.svg";
 export { default as like } from "../assets/like.svg";
 export { default as plus } from "../assets/plus.svg";
 export { default as quote } from "../assets/quote.svg";
@@ -35,4 +36,10 @@ export const headerButtons = [
   { title: "Let's Talk", id: 4 },
 ];
 
-export const scrollContent= []
+export const scrollContent = [
+  { icon: netflix },
+  { icon: huawei },
+  { icon: dunkin },
+  { icon: armor },
+  { icon: cadburys },
+];
