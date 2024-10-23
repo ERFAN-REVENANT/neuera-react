@@ -10,7 +10,7 @@ import {
 
 const Benefits = () => {
   return (
-    <section className="bg-customRed text-white px-[70px]">
+    <section className="bg-customRed text-white px-[70px] pb-10">
       {/* Container for the two columns */}
       <div className=" mx-auto grid grid-cols-2 ">
         {/* Left column - Heading */}

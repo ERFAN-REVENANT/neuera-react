@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import TopSection from "./components/TopSection";
 import InfiniteScroll from "./components/InfiniteScroll";
 import Benefits from "./components/Benefits";
+import Points from "./components/Points";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <TopSection></TopSection>
       <InfiniteScroll></InfiniteScroll>
       <Benefits></Benefits>
+      <Points></Points>
     </div>
   );
 };
