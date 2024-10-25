@@ -37,11 +37,11 @@ const TopSection = () => {
             className="w-1/2 h-[150px] bg-contain bg-no-repeat bg-center mt-6 px-4 py-4 font-mulish text-customRed "
             style={{ backgroundImage: `url(${container1})` }}
           >
-            <div className="flex justify-end">
+            <div className="flex justify-end mt-3 mb-2">
               <img
                 src={arrowupright}
                 style={{ fill: `customRed` }}
-                width={40}
+                width={20}
                 alt=""
               />
             </div>
@@ -56,11 +56,11 @@ const TopSection = () => {
             className="w-1/2 h-[150px] bg-contain bg-no-repeat bg-center mt-6 px-4 py-4 font-mulish text-customRed "
             style={{ backgroundImage: `url(${container1})` }}
           >
-            <div className="flex justify-end">
+            <div className="flex justify-end mt-3 mb-2">
               <img
                 src={arrowupright}
                 style={{ fill: `customRed` }}
-                width={40}
+                width={20}
                 alt=""
               />
             </div>
