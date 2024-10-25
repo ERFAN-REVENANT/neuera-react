@@ -4,6 +4,7 @@ import TopSection from "./components/TopSection";
 import InfiniteScroll from "./components/InfiniteScroll";
 import Benefits from "./components/Benefits";
 import Points from "./components/Points";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <InfiniteScroll></InfiniteScroll>
       <Benefits></Benefits>
       <Points></Points>
+      <Projects></Projects>
     </div>
   );
 };
