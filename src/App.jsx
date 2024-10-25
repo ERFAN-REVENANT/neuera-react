@@ -5,6 +5,7 @@ import InfiniteScroll from "./components/InfiniteScroll";
 import Benefits from "./components/Benefits";
 import Points from "./components/Points";
 import Projects from "./components/Projects";
+import Slogan from "./components/Slogan";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Benefits></Benefits>
       <Points></Points>
       <Projects></Projects>
+      <Slogan></Slogan>
     </div>
   );
 };
