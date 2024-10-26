@@ -6,6 +6,7 @@ import Benefits from "./components/Benefits";
 import Points from "./components/Points";
 import Projects from "./components/Projects";
 import Slogan from "./components/Slogan";
+import PreFooter from "./components/PreFooter";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Points></Points>
       <Projects></Projects>
       <Slogan></Slogan>
+      <PreFooter></PreFooter>
     </div>
   );
 };

@@ -16,17 +16,21 @@ import user from "../assets/user.svg";
 import announce from "../assets/announce.svg";
 import add from "../assets/add.svg";
 import target from "../assets/target.svg";
-export { default as arrowuprightwhite } from "../assets/arrowuprightwhite.svg";
-export { default as arrowupright } from "../assets/arrowupright.svg";
-export { default as logo } from "../assets/logo.svg";
-export { default as arrowuprightpink } from "../assets/arrowuprightpink.svg";
-export { default as logopink } from "../assets/logopink.svg";
-export { default as logored } from "../assets/logored.svg";
 import armor from "../assets/armor.svg";
 import netflix from "../assets/netflix.svg";
 import cadburys from "../assets/cadburys.svg";
 import dunkin from "../assets/dunkin.svg";
 import huawei from "../assets/huawei.svg";
+export { default as arrowuprightwhite } from "../assets/arrowuprightwhite.svg";
+export { default as arrowuprightblue } from "../assets/arrowuprightblue.svg";
+export { default as container4 } from "../assets/container4.svg";
+export { default as container5 } from "../assets/container5.svg";
+export { default as container6 } from "../assets/container6.svg";
+export { default as arrowupright } from "../assets/arrowupright.svg";
+export { default as logo } from "../assets/logo.svg";
+export { default as arrowuprightpink } from "../assets/arrowuprightpink.svg";
+export { default as logopink } from "../assets/logopink.svg";
+export { default as logored } from "../assets/logored.svg";
 export { default as container1 } from "../assets/container1.svg";
 export { default as container2 } from "../assets/container2.svg";
 export { default as container3 } from "../assets/container3.svg";
@@ -75,22 +79,22 @@ export const BenefitsContent = [
 
 export const pointsContent = [
   {
-    icn:target,
+    icn: target,
     title: "Social Strategy",
     text: "Our Social Strategy is all about developing customized plans that align seamlessly with your brand’s goals and the behaviors of your target audience. We dive deep into the unique aspects.",
   },
   {
-    icn:user,
+    icn: user,
     title: "Creator Management",
     text: "Our Creator Management services are designed to empower influencers to thrive in their creative endeavors, offering them the personalized support and strategic guidance they need.",
   },
   {
-    icn:add,
+    icn: add,
     title: "Influencer Partnerships",
     text: "We specialize in connecting your brand with the right influencers, forging authentic partnerships that amplify your message and expand your reach.",
   },
   {
-    icn:announce,
+    icn: announce,
     title: "Social Publishing",
     text: "Our Social Publishing services streamline your content delivery, ensuring your brand’s voice is consistently heard across all platforms. We take the hassle out of managing.",
   },
