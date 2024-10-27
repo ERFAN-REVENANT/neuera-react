@@ -28,6 +28,7 @@ export { default as container5 } from "../assets/container5.svg";
 export { default as container6 } from "../assets/container6.svg";
 export { default as arrowupright } from "../assets/arrowupright.svg";
 export { default as logo } from "../assets/logo.svg";
+export { default as logoblue } from "../assets/logoblue.svg";
 export { default as arrowuprightpink } from "../assets/arrowuprightpink.svg";
 export { default as logopink } from "../assets/logopink.svg";
 export { default as logored } from "../assets/logored.svg";
@@ -100,23 +101,21 @@ export const pointsContent = [
   },
 ];
 
+export const footerTitles = ["Home", "Support", "Social Media"];
 export const footerLinks = [
   [
-    { name: "Home", url: "/home" },
     { name: "Services", url: "/services" },
     { name: "Product", url: "/product" },
     { name: "About Us", url: "/about-us" },
   ],
   [
-    { name: "Support", url: "/support" },
     { name: "FAQ", url: "/faq" },
     { name: "Articles", url: "/articles" },
     { name: "Contact Us", url: "/contact-us" },
   ],
   [
-    { name: "Social Media", url: "/social-media" },
     { name: "Dribbble", url: "/dribbble" },
     { name: "Behance", url: "/behance" },
     { name: "LinkedIn", url: "/linkedin" },
-  ]
+  ],
 ];

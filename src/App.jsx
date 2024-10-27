@@ -7,6 +7,7 @@ import Points from "./components/Points";
 import Projects from "./components/Projects";
 import Slogan from "./components/Slogan";
 import PreFooter from "./components/PreFooter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Projects></Projects>
       <Slogan></Slogan>
       <PreFooter></PreFooter>
+      <Footer></Footer>
     </div>
   );
 };
