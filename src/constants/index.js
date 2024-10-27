@@ -99,3 +99,24 @@ export const pointsContent = [
     text: "Our Social Publishing services streamline your content delivery, ensuring your brand’s voice is consistently heard across all platforms. We take the hassle out of managing.",
   },
 ];
+
+export const footerLinks = [
+  [
+    { name: "Home", url: "/home" },
+    { name: "Services", url: "/services" },
+    { name: "Product", url: "/product" },
+    { name: "About Us", url: "/about-us" },
+  ],
+  [
+    { name: "Support", url: "/support" },
+    { name: "FAQ", url: "/faq" },
+    { name: "Articles", url: "/articles" },
+    { name: "Contact Us", url: "/contact-us" },
+  ],
+  [
+    { name: "Social Media", url: "/social-media" },
+    { name: "Dribbble", url: "/dribbble" },
+    { name: "Behance", url: "/behance" },
+    { name: "LinkedIn", url: "/linkedin" },
+  ]
+];
