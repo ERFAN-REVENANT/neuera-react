@@ -23,7 +23,7 @@ import netflix from "../assets/netflix.svg";
 import cadburys from "../assets/cadburys.svg";
 import dunkin from "../assets/dunkin.svg";
 import huawei from "../assets/huawei.svg";
-export { default as arrowwhite } from "../assets/arrowwhite.svg";
+
 export { default as arrowuprightblue } from "../assets/arrowuprightblue.svg";
 import container4 from "../assets/container4.svg";
 import container5 from "../assets/container5.svg";

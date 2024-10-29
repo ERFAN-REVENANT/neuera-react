@@ -5,8 +5,9 @@ import {
   image11,
   container1,
   arrowupright,
-  arrowuprightwhite,
 } from "../constants";
+
+import arrowuprightwhite from "../assets/arrowwhite.svg";
 
 const TopSection = () => {
   return (

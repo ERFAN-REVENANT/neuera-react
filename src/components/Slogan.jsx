@@ -1,5 +1,6 @@
 import React from "react";
-import { sticker, arrowwhite } from "../constants";
+import { sticker } from "../constants";
+import arrowwhite from "../assets/arrowwhite.svg";
 
 const Slogan = () => {
   return (
