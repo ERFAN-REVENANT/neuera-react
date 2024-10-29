@@ -123,7 +123,7 @@ export const footerLinks = [
   ],
 ];
 
-const employeesContent = [
+export const employeesContent = [
   {
     name: "John Smith",
     title: "CEO & Founder",
