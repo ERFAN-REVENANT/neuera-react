@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 import Slogan from "./components/Slogan";
 import PreFooter from "./components/PreFooter";
 import Footer from "./components/Footer";
-import Employees from "./components/Employees";
+
 import Comments from "./components/Comments";
 
 const App = () => {
@@ -21,7 +21,7 @@ const App = () => {
       <Points></Points>
       <Projects></Projects>
       <Slogan></Slogan>
-      <Employees></Employees>
+
       <Comments></Comments>
       <PreFooter></PreFooter>
       <Footer></Footer>

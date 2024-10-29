@@ -1,5 +1,5 @@
 import React from "react";
-import { sticker, arrowuprightwhite } from "../constants";
+import { sticker, arrowwhite } from "../constants";
 
 const Slogan = () => {
   return (
@@ -15,7 +15,7 @@ const Slogan = () => {
       <button className="mt-10 bg-white w-[260px] rounded-full text-customBlue p-3 font-mulish font-semibold text-[24px] flex items-center leading-normal justify-between">
         <p className="px-8">Start Now!</p>
         <img
-          src={arrowuprightwhite}
+          src={arrowwhite}
           className="bg-customBlue rounded-full w-[50px] h-[50px] "
           alt=""
         />

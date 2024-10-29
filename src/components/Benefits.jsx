@@ -3,7 +3,6 @@ import {
   arrowupright,
   arrowuprightpink,
   BenefitsContent,
-  logo,
   logopink,
   logored,
 } from "../constants";
