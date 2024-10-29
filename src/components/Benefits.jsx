@@ -1,11 +1,11 @@
 import React from "react";
 import {
-  arrowupright,
   arrowuprightpink,
   BenefitsContent,
   logopink,
   logored,
 } from "../constants";
+import arrowupright from "../assets/arrowupright.svg";
 
 const Benefits = () => {
   return (

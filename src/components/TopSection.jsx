@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  camera,
-  colorLogo,
-  image11,
-  container1,
-  arrowupright,
-} from "../constants";
-
+import { camera, colorLogo, image11, container1 } from "../constants";
+import arrowupright from "../assets/arrowupright.svg";
 import arrowuprightwhite from "../assets/arrowwhite.svg";
 
 const TopSection = () => {
