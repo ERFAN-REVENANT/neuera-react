@@ -28,6 +28,8 @@ export { default as arrowuprightblue } from "../assets/arrowuprightblue.svg";
 import container4 from "../assets/container4.svg";
 import container5 from "../assets/container5.svg";
 import container6 from "../assets/container6.svg";
+
+
 export { default as arrowupright } from "../assets/arrowupright.svg";
 export { default as logo } from "../assets/logo.svg";
 export { default as logoblue } from "../assets/logoblue.svg";
@@ -37,6 +39,8 @@ export { default as logored } from "../assets/logored.svg";
 export { default as container1 } from "../assets/container1.svg";
 export { default as container2 } from "../assets/container2.svg";
 export { default as container3 } from "../assets/container3.svg";
+
+
 export { default as like } from "../assets/like.svg";
 export { default as plus } from "../assets/plus.svg";
 export { default as quote } from "../assets/quote.svg";
