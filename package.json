@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "tailwind:watch": "npx tailwindcss -i ./src/index.css -o ./src/tailwind.css --watch"
+    "tailwind:watch": "npx tailwindcss -i ./src/index.css -o ./public/tailwind.css --watch"
   },
   "dependencies": {
     "react": "^18.2.0",
